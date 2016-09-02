@@ -1,0 +1,8 @@
+---
+title: "GroceryList.js"
+type: "challenge"  # challenge, exercise, article, tutorial, video
+description: "Lesson Description."
+tags: "javascript, systems-check"
+ignore:
+- "images"
+- "grocery-list-js.md"
