@@ -5,12 +5,8 @@ var GroceryList = function(storeName, date){
   this.items = [];
 }
 
-GroceryList.prototype.addItem = function(items){
-  //refactored to allow mulitiple arguments/clean up main.js code
-  items = Array.prototype.slice.apply(arguments);
-  for(let item of items){
-    this.items.push(item);
-  }
+GroceryList.prototype.addItem = function(item){
+  this.items.push(item);
 }
 
 GroceryList.prototype.toHTML = function(){

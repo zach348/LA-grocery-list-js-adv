@@ -9,9 +9,11 @@
   kale = new GroceryItem("kale", 4);
   oliveOil = new GroceryItem("olive oil");
   twinkies = new GroceryItem("twinkies");
-  myList = new GroceryList("random", "9/2/16");
+  myList = new GroceryList("Random", "9/2/16");
 
-  myList.addItem(kale, oliveOil, twinkies);
+  myList.addItem(kale);
+  myList.addItem(oliveOil);
+  myList.addItem(twinkies);
 
   //jQuery selectors were not working
   displayList = function(list){
